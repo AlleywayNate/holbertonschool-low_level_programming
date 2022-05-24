@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point
@@ -14,10 +14,10 @@ int main(void)
 	char c;
 	char s[] = "_putchar\n";
 
-	while (i <= 9)
+	while (i < 9)
 	{
 		c = s[i];
-		putchar(c);
+		_putchar(c);
 		i++;
 	}
 	return (0);
