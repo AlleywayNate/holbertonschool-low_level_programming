@@ -2,7 +2,7 @@
 
 /**
 *reset_to_98 - it resets 98
-*@*n 
+*@n: is 98
 */
 
 void reset_to_98(int *n)
