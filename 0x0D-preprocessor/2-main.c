@@ -1,19 +1,13 @@
-#include "1-pi.h"
-#include "1-pi.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - check the code for Holberton School students.
+ * main - entry point
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 int main(void)
 {
-	float a;
-	float r;
-
-	r = 98;
-	a = PI * r * r;
-	printf("%.3f\n", a);
+	printf("%s\n", __FILE__);
 	return (0);
 }
